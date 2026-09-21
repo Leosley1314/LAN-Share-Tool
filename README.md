@@ -1,4 +1,4 @@
-# 局域网共享工具 (LAN Share Tool)
+# 局域网共享工具 (LAN Share Tool) v1.1
 
 Windows 一键配置局域网共享，支持磁盘/文件夹/打印机共享。
 
@@ -10,6 +10,8 @@ Windows 一键配置局域网共享，支持磁盘/文件夹/打印机共享。
 - 无密码访客访问开关
 - 网络发现开关
 - 打印机共享开关
+- 免责协议确认
+- 完成后显示访问地址
 
 ## 兼容性
 - Windows Vista / 7 / 8 / 10 / 11
@@ -18,5 +20,5 @@ Windows 一键配置局域网共享，支持磁盘/文件夹/打印机共享。
 ## 使用
 双击 `局域网共享工具.exe`，选择共享内容后点"开始配置"。
 
-## GitHub
-https://github.com/Leosley1314/lan-share-tool
+## 下载
+见 [Releases](../../releases)
