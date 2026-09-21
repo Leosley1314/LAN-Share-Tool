@@ -21,4 +21,4 @@ Windows 一键配置局域网共享，支持磁盘/文件夹/打印机共享。
 双击 `局域网共享工具.exe`，选择共享内容后点"开始配置"。
 
 ## 下载
-见 [Releases](../../releases)
+[Releases](../../releases)
