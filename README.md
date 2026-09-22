@@ -1,4 +1,4 @@
-# 局域网共享工具 (LAN Share Tool) v1.1
+# 局域网共享工具 (LAN Share Tool)
 
 Windows 一键配置局域网共享，支持磁盘/文件夹/打印机共享。
 
