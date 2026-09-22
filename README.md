@@ -27,6 +27,20 @@ Windows 一键配置局域网共享，支持磁盘/文件夹/打印机共享。
 ## 使用
 双击 `局域网共享工具.exe`，选择共享内容后点"开始配置"。
 
+## 客户端设置（访问方）
+
+如果其他 Windows 电脑无法访问，提示 0x80070035 或"找不到网络路径"，请在**访问方电脑**上执行：
+
+1. **启用不安全的来宾登录**
+   - Win+R → `gpedit.msc` → 计算机配置 → 管理模板 → 网络 → Lanman 工作站 → 启用"不安全的来宾登录"
+   - 或注册表：`HKLM\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation` 新建 DWORD `AllowInsecureGuestAuth` = 1
+
+2. **安装 SMB 1.0/CIFS 客户端**
+   - 控制面板 → 程序 → 启用或关闭 Windows 功能 → 勾选"SMB 1.0/CIFS 文件共享支持"
+
+3. **优先用 IP 访问**
+   - 不要用电脑名，直接输入 `\\对方IP`（如 `\\192.168.1.100`）
+
 ## 下载
 [Releases](../../releases)
 
